@@ -24,7 +24,7 @@
       </p>
     </div>
     <div class="fullName w-[21.25rem] h-[3.875rem] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem] bg-[#EBF2F0]">
-      <input type="text" placeholder="Full Name"
+      <input type="text" placeholder="Full Name" id="name"
         class="bg-[#EBF2F0] bsolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem]">
       <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
         class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
@@ -35,7 +35,7 @@
     </div>
     <div
       class="Password w-[21.25rem] h-[3.875rem] bg-[#EBF2F0] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem]">
-      <input type="password" placeholder="Password"
+      <input type="password" placeholder="Password" id="password"
         class="absolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem] bg-[#EBF2F0]">
       <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
         class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
@@ -53,11 +53,11 @@
         <p class="text-blue-500"><a href="#">Forgot Password?</a></p>
       </div>
     </div>
-    <a href="./pages/home.html">
+    <a href="./pages/home.html" id="login">
       <div
       class="signup flex justify-center items-center w-[21.25rem] h-[3.125rem] bg-[#354B45] rounded-[6.25rem] mb-[0.81rem]">
       
-        <p class="text-white Poppins normal font-[600]">Log in</p>
+        <p class="text-white Poppins normal font-[600]" >Log in</p>
     </div>
     </a>
     
@@ -69,5 +69,17 @@
 
   </div>
 </body>
+<!-- <script>
+   const name = document.getElementById('name');
+   const password = document.getElementById('password');
+
+  password.addEventListener('', function(){
+    if(name.value == "Chhit"){
+      if(password.value == "12345"){
+
+      }
+    }
+  });
+</script> -->
 
 </html>
