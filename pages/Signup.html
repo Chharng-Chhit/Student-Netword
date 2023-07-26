@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../assets/images/community.png">
+  <title>Login</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-[24.375rem] h-[50.75rem] m-auto flex-col flex justify-center items-center border-2 border-indigo-600">
+    <div class="logo flex-col w-full items-center justify-center ">
+      <div class="img flex justify-center w-full">
+        <img src="../assets/images/community.png" alt="" class="w-[6.25rem] h-[6.25rem]">
+      </div>
+      <h1 class="text-center font-[Poppins] text-[2.25rem] font-[500] text-[#17412B] normal">Register</h1>
+      <p class="text-center text-[#8B8B8B] Poppins text-[0.875rem] tracking-[0.03938rem] mb-[1.25rem]">Create your new
+        account</p>
+    </div>
+    <div
+      class="fullName w-[21.25rem] h-[3.875rem] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem] bg-[#EBF2F0]">
+      <input type="text" placeholder="Full Name"
+        class="bg-[#EBF2F0] bsolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M8.4382 8.4375C10.9723 8.4375 13.0282 6.54785 13.0282 4.21875C13.0282 1.88965 10.9723 0 8.4382 0C5.90414 0 3.8482 1.88965 3.8482 4.21875C3.8482 6.54785 5.90414 8.4375 8.4382 8.4375ZM12.5182 9.375H10.7619C10.0543 9.67383 9.26695 9.84375 8.4382 9.84375C7.60945 9.84375 6.82532 9.67383 6.11451 9.375H4.3582C2.10464 9.375 0.278198 11.0537 0.278198 13.125V13.5938C0.278198 14.3701 0.963511 15 1.8082 15H15.0682C15.9129 15 16.5982 14.3701 16.5982 13.5938V13.125C16.5982 11.0537 14.7718 9.375 12.5182 9.375Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div
+      class="Email w-[21.25rem] h-[3.875rem] bg-[#EBF2F0] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem]">
+      <input type="text" placeholder="Example@gmail.com"
+        class="absolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem] bg-[#EBF2F0]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M21.7138 4.95312C21.8796 4.83203 22.1261 4.94531 22.1261 5.13672V13.125C22.1261 14.1602 21.2123 15 20.0861 15H2.40609C1.27984 15 0.366089 14.1602 0.366089 13.125V5.14062C0.366089 4.94531 0.608339 4.83594 0.778339 4.95703C1.73034 5.63672 2.99259 6.5 7.32759 9.39453C8.22434 9.99609 9.73734 11.2617 11.2461 11.2539C12.7633 11.2656 14.3061 9.97266 15.1688 9.39453C19.5038 6.5 20.7618 5.63281 21.7138 4.95312ZM11.2461 10C12.2321 10.0156 13.6516 8.85938 14.3656 8.38281C20.0053 4.62109 20.4346 4.29297 21.7351 3.35547C21.9816 3.17969 22.1261 2.90625 22.1261 2.61719V1.875C22.1261 0.839844 21.2123 0 20.0861 0H2.40609C1.27984 0 0.366089 0.839844 0.366089 1.875V2.61719C0.366089 2.90625 0.510589 3.17578 0.757089 3.35547C2.05759 4.28906 2.48684 4.62109 8.12659 8.38281C8.84059 8.85938 10.2601 10.0156 11.2461 10Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div
+      class="Password w-[21.25rem] h-[3.875rem] bg-[#EBF2F0] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem]">
+      <input type="password" placeholder="Password"
+        class="absolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem] bg-[#EBF2F0]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M13.9326 6.5625H13.197V4.45312C13.197 1.99805 11.1067 0 8.53836 0C5.96997 0 3.8797 1.99805 3.8797 4.45312V6.5625H3.14413C2.33193 6.5625 1.67297 7.19238 1.67297 7.96875V13.5938C1.67297 14.3701 2.33193 15 3.14413 15H13.9326C14.7448 15 15.4037 14.3701 15.4037 13.5938V7.96875C15.4037 7.19238 14.7448 6.5625 13.9326 6.5625ZM10.7451 6.5625H6.33163V4.45312C6.33163 3.29004 7.32159 2.34375 8.53836 2.34375C9.75513 2.34375 10.7451 3.29004 10.7451 4.45312V6.5625Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div
+      class="Password w-[21.25rem] h-[3.875rem] bg-[#EBF2F0] rounded-[1.25rem] relative box-border object-cover mb-[.81rem] ">
+      <input type="password" placeholder="Confirm Password"
+        class="absolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem] bg-[#EBF2F0]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M13.9326 6.5625H13.197V4.45312C13.197 1.99805 11.1067 0 8.53836 0C5.96997 0 3.8797 1.99805 3.8797 4.45312V6.5625H3.14413C2.33193 6.5625 1.67297 7.19238 1.67297 7.96875V13.5938C1.67297 14.3701 2.33193 15 3.14413 15H13.9326C14.7448 15 15.4037 14.3701 15.4037 13.5938V7.96875C15.4037 7.19238 14.7448 6.5625 13.9326 6.5625ZM10.7451 6.5625H6.33163V4.45312C6.33163 3.29004 7.32159 2.34375 8.53836 2.34375C9.75513 2.34375 10.7451 3.29004 10.7451 4.45312V6.5625Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div class="w-[20.8125rem] h-[2.375rem] mb-[2.5rem]">
+      <p class="text-center Poppins font-[400] text-[0.75rem] text-[#8B8B8B]">
+        By signing up you’ve agree to
+        <b class="text-[#354B45]">
+          <a href="">Our Terms of Use And Privacy Notice</a>
+        </b>
+      </p>
+    </div>
+    <div
+      class="signup flex justify-center items-center w-[21.25rem] h-[3.125rem] bg-[#354B45] rounded-[6.25rem] mb-[0.81rem]">
+      <p class="text-white Poppins normal font-[600]">Sign Up</p>
+    </div>
+    <div class="">
+      <p class="text-center Poppins font-[400] text-[0.75rem] text-[#8B8B8B]">Already have an account?
+        <a href="./login.html" class="text-[#354B45] font-[600]">Login</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
