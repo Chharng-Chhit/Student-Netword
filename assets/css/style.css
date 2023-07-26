@@ -1,11 +1,4 @@
-body .container {
-  position: relative;
-  width: 390px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-body .container .navbar {
+.navbar {
   width: 24.375rem;
   height: 3.75rem;
   background-color: #EBC6FF;
@@ -13,17 +6,17 @@ body .container .navbar {
   justify-content: space-between;
   position: relative;
 }
-body .container .navbar .logo {
+.navbar .logo {
   margin-left: 0.69rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .container .navbar .logo img {
+.navbar .logo img {
   width: 1.875rem;
   height: 1.875rem;
 }
-body .container .navbar .logo p {
+.navbar .logo p {
   color: #354B45;
   font-family: Inter;
   margin-left: 0.69rem;
@@ -32,46 +25,56 @@ body .container .navbar .logo p {
   font-weight: 700;
   line-height: normal;
 }
-body .container .navbar .icon {
+.navbar .icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .container .navbar .icon i,
-body .container .navbar .icon img {
+.navbar .icon i,
+.navbar .icon img {
   margin-right: 18px;
   font-weight: bold;
   color: #3E3838;
 }
-body .container .sticky {
+
+.sticky {
   position: sticky;
   top: 0;
   position: fixed;
   z-index: 1;
 }
-body .container .nav-menu {
+
+.nav-menu {
   display: flex;
   height: 3.125rem;
   width: 390px;
   background: #98B0A9;
   box-shadow: 0 7px 7px rgb(250, 250, 250);
 }
-body .container .nav-menu div {
+.nav-menu div {
   height: 3.125rem;
   width: 390px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-body .container .nav-menu div a i {
+.nav-menu div a i {
   font-size: 25px;
   color: rgb(51, 49, 49);
 }
-body .container .nav-menu div a .profile {
+.nav-menu div a .profile {
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
 }
-body .container .story {
+
+.container {
+  position: relative;
+  width: 390px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.container .story {
   margin-top: 5px;
   width: 390px;
   background: #DFDFDF;
@@ -81,28 +84,28 @@ body .container .story {
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .story .story-post {
+.container .story .story-post {
   min-width: 100px;
   height: 190px;
   margin: 7px;
   border-radius: 10px;
   background: #d4b3b3;
 }
-body .container .story .story-post .bg-img {
+.container .story .story-post .bg-img {
   position: relative;
   height: 85%;
   width: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .story .story-post .bg-img img {
+.container .story .story-post .bg-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
-body .container .story .story-post .bg-img .user-img {
+.container .story .story-post .bg-img .user-img {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -114,7 +117,7 @@ body .container .story .story-post .bg-img .user-img {
   top: 110px;
   left: 25px;
 }
-body .container .story .story-post .bg-img .user-img img {
+.container .story .story-post .bg-img .user-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -122,7 +125,7 @@ body .container .story .story-post .bg-img .user-img img {
   border-radius: 50%;
   border: 2px solid #0074B7;
 }
-body .container .story .story-post .story-txt {
+.container .story .story-post .story-txt {
   height: 15%;
   width: 100%;
   border-radius: 0 0 10px 10px;
@@ -131,25 +134,25 @@ body .container .story .story-post .story-txt {
   justify-content: center;
   align-items: center;
 }
-body .container .story .story-post .story-txt p {
+.container .story .story-post .story-txt p {
   font-size: 12px;
 }
-body .container .story .me {
+.container .story .me {
   position: relative;
 }
-body .container .story .me .bg-img {
+.container .story .me .bg-img {
   height: 70%;
   width: 100px;
   border-radius: 10px 10px 0 0;
 }
-body .container .story .me .bg-img img {
+.container .story .me .bg-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
-body .container .story .me .plus {
+.container .story .me .plus {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -161,11 +164,11 @@ body .container .story .me .plus {
   top: 100px;
   left: 25px;
 }
-body .container .story .me .plus i {
+.container .story .me .plus i {
   font-size: 30px;
   color: white;
 }
-body .container .story .me .story-txt {
+.container .story .me .story-txt {
   height: 30%;
   width: 100%;
   border-radius: 0 0 10px 10px;
@@ -174,7 +177,7 @@ body .container .story .me .story-txt {
   justify-content: center;
   align-items: center;
 }
-body .container .createPost {
+.container .createPost {
   margin-top: 5px;
   width: 390px;
   height: 115px;
@@ -182,7 +185,7 @@ body .container .createPost {
   border-radius: 10px;
   box-sizing: border-box;
 }
-body .container .createPost .icon-bar {
+.container .createPost .icon-bar {
   width: 315px;
   height: 50px;
   margin: auto;
@@ -190,39 +193,39 @@ body .container .createPost .icon-bar {
   justify-content: space-between;
   align-items: center;
 }
-body .container .createPost .icon-bar p {
+.container .createPost .icon-bar p {
   color: #3E3838;
   font-family: "Lobster", cursive;
   font-weight: bold;
 }
-body .container .createPost .icon-bar .icon i {
+.container .createPost .icon-bar .icon i {
   font-size: 20px;
   margin-left: 5px;
 }
-body .container .createPost .icon-bar .icon .video {
+.container .createPost .icon-bar .icon .video {
   color: crimson;
 }
-body .container .createPost .icon-bar .icon .image {
+.container .createPost .icon-bar .icon .image {
   color: rgb(66, 97, 86);
 }
-body .container .createPost .icon-bar .icon .camera {
+.container .createPost .icon-bar .icon .camera {
   color: #3E3838;
 }
-body .container .createPost .new-post {
+.container .createPost .new-post {
   width: 390px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-body .container .createPost .new-post img {
+.container .createPost .new-post img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
   border: 2px solid #4ecec3;
   margin-left: 27px;
 }
-body .container .createPost .new-post input {
+.container .createPost .new-post input {
   border: 0;
   outline: none;
   font-size: 15px;
@@ -232,7 +235,7 @@ body .container .createPost .new-post input {
   border-radius: 10px;
   padding: 5px;
 }
-body .container .createPost .new-post button {
+.container .createPost .new-post button {
   border: 0;
   height: 35px;
   width: 45px;
@@ -243,60 +246,60 @@ body .container .createPost .new-post button {
   cursor: pointer;
   box-shadow: 0 4px 4px #98B0A9;
 }
-body .container .contain .post {
+.container .contain .post {
   margin-top: 5px;
   width: 390px;
   background: rgba(217, 217, 217, 0.83);
   border-radius: 10px;
   padding-bottom: 10px;
 }
-body .container .contain .post .profile-user {
+.container .contain .post .profile-user {
   margin-bottom: 5px;
   height: 55px;
   display: flex;
 }
-body .container .contain .post .profile-user img {
+.container .contain .post .profile-user img {
   margin-top: 10px;
   margin-left: 27px;
   border-radius: 50%;
   border: 2px solid #fdfdfd;
 }
-body .container .contain .post .profile-user .name-user {
+.container .contain .post .profile-user .name-user {
   margin-left: 15px;
   margin-top: 10px;
   align-items: center;
 }
-body .container .contain .post .profile-user .name-user .name {
+.container .contain .post .profile-user .name-user .name {
   font-weight: 700;
   font-family: "Lobster", cursive;
   cursor: pointer;
 }
-body .container .contain .post .profile-user .name-user .times {
+.container .contain .post .profile-user .name-user .times {
   margin-top: 2px;
   color: #3E3838;
   display: flex;
 }
-body .container .contain .post .profile-user .name-user .times i {
+.container .contain .post .profile-user .name-user .times i {
   margin-left: 5px;
 }
-body .container .contain .post .post-contain p {
+.container .contain .post .post-contain p {
   margin-left: 27px;
   margin-bottom: 5px;
 }
-body .container .contain .post .post-contain .post-block hr {
+.container .contain .post .post-contain .post-block hr {
   margin: auto;
   margin-top: 5px;
   width: 90%;
   color: #3E3838;
 }
-body .container .contain .post .post-contain .post-block .img-post {
+.container .contain .post .post-contain .post-block .img-post {
   width: 90%;
   height: 260px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-body .container .contain .post .post-contain .post-block .img-post .img-post1 {
+.container .contain .post .post-contain .post-block .img-post .img-post1 {
   width: 170px;
   display: flex;
   flex-direction: column;
@@ -304,58 +307,58 @@ body .container .contain .post .post-contain .post-block .img-post .img-post1 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .contain .post .post-contain .post-block .img-post .img-post1 img {
+.container .contain .post .post-contain .post-block .img-post .img-post1 img {
   width: 170px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-body .container .contain .post .post-contain .post-block .img-post .img-post1 .img-post2 {
+.container .contain .post .post-contain .post-block .img-post .img-post1 .img-post2 {
   width: 170px;
   height: 125px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .contain .post .post-contain .post-block .img-post .img-post1 .img-post2 img {
+.container .contain .post .post-contain .post-block .img-post .img-post1 .img-post2 img {
   width: 170px;
   height: 125px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-body .container .contain .post .post-contain .reaction {
+.container .contain .post .post-contain .reaction {
   margin: auto;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-body .container .contain .post .post-contain .reaction > div {
+.container .contain .post .post-contain .reaction > div {
   display: block;
 }
-body .container .contain .post .post-contain .reaction > div i {
+.container .contain .post .post-contain .reaction > div i {
   font-size: 25px;
   margin-top: 5px;
   font-weight: 10px;
 }
-body .container .contain .post .post-contain .reaction .like-comment {
+.container .contain .post .post-contain .reaction .like-comment {
   display: flex;
 }
-body .container .contain .post .post-contain .reaction .like-comment .comment {
+.container .contain .post .post-contain .reaction .like-comment .comment {
   margin-left: 50px;
 }
-body .container .contain .post .post-contain .reaction .like,
-body .container .contain .post .post-contain .reaction .comment,
-body .container .contain .post .post-contain .reaction .share {
+.container .contain .post .post-contain .reaction .like,
+.container .contain .post .post-contain .reaction .comment,
+.container .contain .post .post-contain .reaction .share {
   width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body .container .contain .post .post-contain .reaction .like > div,
-body .container .contain .post .post-contain .reaction .comment > div,
-body .container .contain .post .post-contain .reaction .share > div {
+.container .contain .post .post-contain .reaction .like > div,
+.container .contain .post .post-contain .reaction .comment > div,
+.container .contain .post .post-contain .reaction .share > div {
   font-size: 12px;
 }
 

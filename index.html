@@ -5,383 +5,69 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home page</title>
-  <link rel="icon" href="./assets/images/community.png">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="../assets/images/community.png">
+  <title>Log in</title>
+  <script src="../assets/script/tailwind.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="navbar">
-      <div class="logo">
-        <img src="./assets/images/community.png" alt="" width="40">
-        <p>Community</p>
+  <div class="wrapper w-[24.375rem] h-[50.75rem] m-auto flex-col flex justify-center items-center border-2 border-indigo-600">
+    <div class="logo mb-[4rem]">
+      <img src="../assets/images/community.png" alt="" class="w-[9.75rem]">
+    </div>
+    <div class="w-full">
+      <h1 class="w-full text-center text-[#17412B] Poppins text-[2.25rem] normal font-[500]">
+        Welcome back
+      </h1>
+      <p class="text-[#8B8B8B] text-center Poppins text-[0.875rem] tracking-[0.03938rem] mb-[1rem]">
+        Login to your account
+      </p>
+    </div>
+    <div class="fullName w-[21.25rem] h-[3.875rem] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem] bg-[#EBF2F0]">
+      <input type="text" placeholder="Full Name"
+        class="bg-[#EBF2F0] bsolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M8.4382 8.4375C10.9723 8.4375 13.0282 6.54785 13.0282 4.21875C13.0282 1.88965 10.9723 0 8.4382 0C5.90414 0 3.8482 1.88965 3.8482 4.21875C3.8482 6.54785 5.90414 8.4375 8.4382 8.4375ZM12.5182 9.375H10.7619C10.0543 9.67383 9.26695 9.84375 8.4382 9.84375C7.60945 9.84375 6.82532 9.67383 6.11451 9.375H4.3582C2.10464 9.375 0.278198 11.0537 0.278198 13.125V13.5938C0.278198 14.3701 0.963511 15 1.8082 15H15.0682C15.9129 15 16.5982 14.3701 16.5982 13.5938V13.125C16.5982 11.0537 14.7718 9.375 12.5182 9.375Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div
+      class="Password w-[21.25rem] h-[3.875rem] bg-[#EBF2F0] rounded-[1.25rem] relative box-border object-cover mb-[1.69rem]">
+      <input type="password" placeholder="Password"
+        class="absolute w- h-full pl-[3rem] w-full outline-none rounded-[1.25rem] bg-[#EBF2F0]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none"
+        class="absolute top-1/2 translate-y-[-50%] left-[1.2rem]">
+        <path
+          d="M13.9326 6.5625H13.197V4.45312C13.197 1.99805 11.1067 0 8.53836 0C5.96997 0 3.8797 1.99805 3.8797 4.45312V6.5625H3.14413C2.33193 6.5625 1.67297 7.19238 1.67297 7.96875V13.5938C1.67297 14.3701 2.33193 15 3.14413 15H13.9326C14.7448 15 15.4037 14.3701 15.4037 13.5938V7.96875C15.4037 7.19238 14.7448 6.5625 13.9326 6.5625ZM10.7451 6.5625H6.33163V4.45312C6.33163 3.29004 7.32159 2.34375 8.53836 2.34375C9.75513 2.34375 10.7451 3.29004 10.7451 4.45312V6.5625Z"
+          fill="#354B45" />
+      </svg>
+    </div>
+    <div class="w-[21.25rem] flex items-center justify-between text-[#354B45] font-[400] Poppins mb-[5rem]">
+      <div class="flex">
+        <input type="checkbox" class="rounded">
+        <p class="ml-[.5rem]">Remember me</p>
       </div>
-      <div class="icon">
-        <img src="./assets/images/chat.png" alt="" width="25">
-        <i class="fa-solid fa-bell " style="font-size: 25px;"></i>
-        <i class="fa-sharp fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
-
+      <div class="">
+        <p class="text-blue-500"><a href="#">Forgot Password?</a></p>
       </div>
     </div>
-
-    <div class="nav-menu" id="nav-menu">
-      <div class="home">
-        <a href="#">
-          <img src="./assets/Icon/home.svg" alt="">
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="./assets/Icon/friend.svg" alt="">
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="./assets/Icon/book.svg" alt="">
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="./assets/Icon/game.svg" alt="">
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="./assets/images/user.jpg" alt="" width="30" class="profile">
-        </a>
-      </div>
-    </div>
-
-    <div class="story">
-      <div class="me story-post">
-        <div class="bg-img">
-          <img src="./assets/images/user.jpg" alt="">
-
-        </div>
-        <div class="plus">
-          <i class="fa-solid fa-plus"></i>
-        </div>
-        <div class="story-txt">
-          <p>Add Story</p>
-        </div>
-      </div>
-      <div class="story-post">
-        <div class="bg-img">
-          <img src="https://images.pexels.com/photos/12168511/pexels-photo-12168511.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          <div class="user-img">
-            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-          </div>
-        </div>
-        <div class="story-txt">
-          <p>Chharng</p>
-        </div>
-      </div>
+    <a href="./pages/home.html">
+      <div
+      class="signup flex justify-center items-center w-[21.25rem] h-[3.125rem] bg-[#354B45] rounded-[6.25rem] mb-[0.81rem]">
       
-      <div class="story-post">
-        <div class="bg-img">
-          <img src="https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          <div class="user-img">
-            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          </div>
-        </div>
-        
-        <div class="story-txt">
-          <p>Tongmeng</p>
-        </div>
-      </div>
-
-      <div class="story-post">
-        <div class="bg-img">
-          <img src="https://images.pexels.com/photos/13009437/pexels-photo-13009437.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          <div class="user-img">
-            <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          </div>
-        </div>
-        
-        <div class="story-txt">
-          <p>Cheata</p>
-        </div>
-      </div>
-
-      <div class="story-post">
-        <div class="bg-img">
-          <img src="https://images.pexels.com/photos/12560704/pexels-photo-12560704.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          <div class="user-img">
-            <img src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          </div>
-        </div>
-        
-        <div class="story-txt">
-          <p>Vicheat</p>
-        </div>
-      </div>
-
-      <div class="story-post">
-        <div class="bg-img">
-          <img src="https://images.pexels.com/photos/15997986/pexels-photo-15997986/free-photo-of-light-sea-city-dawn.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          <div class="user-img">
-            <img src="https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-          </div>
-        </div>
-        
-        <div class="story-txt">
-          <p>Pholla</p>
-        </div>
-      </div>
-
-
+        <p class="text-white Poppins normal font-[600]">Log in</p>
     </div>
-
-    <div class="createPost">
-      <div class="icon-bar">
-        <p>Create Post</p>
-        <div class="icon">
-          <i class="fa-brands fa-youtube video"></i>
-          <i class="fa-solid fa-image image"></i>
-          <i class="fa-solid fa-camera camera"></i>
-        </div>
-      </div>
-      <div class="new-post">
-        <img src="./assets/images/user.jpg" alt="" width="35" height="35">
-        <input type="text" placeholder="What’s on your mind?">
-        <button>Post</button>
-      </div>
-    </div>
-
-    <div class="contain">
-      <div class="post">
-        <div class="profile-user">
-          <img src="./assets/images/user.jpg" alt="">
-          <div class="name-user">
-            <div class="name">Chharng Chhit</div>
-            <div class="times">
-              <p>3h</p>
-              <i class="fa-solid fa-earth-americas"></i>
-            </div>
-          </div>
-        </div>
-        <div class="post-contain">
-          <p class="txt-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-
-          <div class="post-block">
-            <div class="img-post">
-              <div class="img-post1">
-                <img src="./assets/images/view1.jpg" alt="">
-              </div>
-              <div class="img-post1">
-                <div class="img-post2">
-                  <img src="./assets/images/view2.jpg" alt="">
-                </div>
-                <div class="img-post2">
-                  <img src="./assets/images/view3.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="reaction">
-            <div class="like-comment">
-              <div class="like">
-                <i class="fa-regular fa-heart"></i>
-                <div>100 Like</div>
-              </div>
-              <div class="comment">
-                <i class="fa-regular fa-message"></i>
-                <div>50 Comment</div>
-              </div>
-            </div>
-            <div class="share">
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contain">
-      <div class="post">
-        <div class="profile-user">
-          <img src="./assets/images/user.jpg" alt="">
-          <div class="name-user">
-            <div class="name">Chharng Chhit</div>
-            <div class="times">
-              <p>3h</p>
-              <i class="fa-solid fa-earth-americas"></i>
-            </div>
-          </div>
-        </div>
-        <div class="post-contain">
-          <p class="txt-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-
-          <div class="post-block">
-            <div class="img-post">
-              <div class="img-post1">
-                <img src="https://images.pexels.com/photos/15744089/pexels-photo-15744089/free-photo-of-city-cars-road-streets.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-              </div>
-              <div class="img-post1">
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/16247451/pexels-photo-16247451/free-photo-of-sea-dawn-landscape-nature.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/16472486/pexels-photo-16472486/free-photo-of-wood-light-city-streets.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="reaction">
-            <div class="like-comment">
-              <div class="like">
-                <i class="fa-regular fa-heart"></i>
-                <div>100 Like</div>
-              </div>
-              <div class="comment">
-                <i class="fa-regular fa-message"></i>
-                <div>50 Comment</div>
-              </div>
-            </div>
-            <div class="share">
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contain">
-      <div class="post">
-        <div class="profile-user">
-          <img src="./assets/images/user.jpg" alt="">
-          <div class="name-user">
-            <div class="name">Chharng Chhit</div>
-            <div class="times">
-              <p>3h</p>
-              <i class="fa-solid fa-earth-americas"></i>
-            </div>
-          </div>
-        </div>
-        <div class="post-contain">
-          <p class="txt-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-
-          <div class="post-block">
-            <div class="img-post">
-              <div class="img-post1">
-                <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-              </div>
-              <div class="img-post1">
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="reaction">
-            <div class="like-comment">
-              <div class="like">
-                <i class="fa-regular fa-heart"></i>
-                <div>100 Like</div>
-              </div>
-              <div class="comment">
-                <i class="fa-regular fa-message"></i>
-                <div>50 Comment</div>
-              </div>
-            </div>
-            <div class="share">
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contain">
-      <div class="post">
-        <div class="profile-user">
-          <img src="./assets/images/user.jpg" alt="">
-          <div class="name-user">
-            <div class="name">Chharng Chhit</div>
-            <div class="times">
-              <p>3h</p>
-              <i class="fa-solid fa-earth-americas"></i>
-            </div>
-          </div>
-        </div>
-        <div class="post-contain">
-          <p class="txt-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-
-          <div class="post-block">
-            <div class="img-post">
-              <div class="img-post1">
-                <img src="https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-              </div>
-              <div class="img-post1">
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-                <div class="img-post2">
-                  <img src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="reaction">
-            <div class="like-comment">
-              <div class="like">
-                <i class="fa-regular fa-heart"></i>
-                <div>100 Like</div>
-              </div>
-              <div class="comment">
-                <i class="fa-regular fa-message"></i>
-                <div>50 Comment</div>
-              </div>
-            </div>
-            <div class="share">
-              <i class="fa-solid fa-share-nodes"></i>
-            </div>
-
-          </div>
-        </div>
-      </div>
+    </a>
+    
+    <div class="">
+      <p class="text-center Poppins font-[400] text-[0.75rem] text-[#8B8B8B]">Don't have an account?
+        <a href="./pages/Signup.html" class="text-[#354B45] font-[600]">Sign up</a>
+      </p>
     </div>
 
   </div>
 </body>
-<footer>
-  
-</footer>
-
-<script>
-  
-  var navbar = document.getElementById("nav-menu");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  window.onscroll = function() {myFunction()};
-</script>
 
 </html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <link rel="icon" href="../assets/images/community.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../assets/script/tailwind.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<style>
+    .wrapper {
+        /* w-[24.375rem] m-auto flex-col flex relative pb-[100rem] box-border bg-slate-50 */
+        width: 24.375rem;
+        margin: auto;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        
+    }
+    .imageContainer::-webkit-scrollbar {
+        width: 1px;
+      }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="logo">
+                <img src="../assets/images/community.png" alt="" width="40">
+                <p>Community</p>
+            </div>
+            <div class="icon">
+                <div class="w-[35px] h-[35px] rounded-full flex justify-center items-center bg-[#98B0A9] mr-1 relative">
+                    <img src="../assets/images/chat.png" alt="" width="25" class="absolute top-1 left-1">
+                </div>
+                <i class="fa-solid fa-bell " style="font-size: 25px;"></i>
+                <i class="fa-sharp fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+
+            </div>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            <div class="home">
+                <a href="./home.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="21" viewBox="0 0 25 21" fill="none">
+                        <path d="M12.1688 5.37322L4.16724 12.153V19.4703C4.16724 19.6598 4.2404 19.8415 4.37062 19.9755C4.50085 20.1094 4.67747 20.1847 4.86163 20.1847L9.72497 20.1717C9.90853 20.1708 10.0843 20.0951 10.2137 19.9613C10.3432 19.8274 10.4159 19.6462 10.4159 19.4574V15.1841C10.4159 14.9947 10.489 14.813 10.6193 14.679C10.7495 14.545 10.9261 14.4698 11.1103 14.4698H13.8878C14.072 14.4698 14.2486 14.545 14.3789 14.679C14.5091 14.813 14.5822 14.9947 14.5822 15.1841V19.4543C14.582 19.5483 14.5997 19.6414 14.6345 19.7283C14.6692 19.8152 14.7203 19.8943 14.7848 19.9608C14.8494 20.0274 14.926 20.0802 15.0104 20.1163C15.0948 20.1523 15.1853 20.1709 15.2766 20.1709L20.1382 20.1847C20.3224 20.1847 20.499 20.1094 20.6292 19.9755C20.7595 19.8415 20.8326 19.6598 20.8326 19.4703V12.1481L12.8328 5.37322C12.7388 5.29523 12.6216 5.2527 12.5008 5.2527C12.38 5.2527 12.2628 5.29523 12.1688 5.37322ZM24.808 9.98132L21.1798 6.90464V0.720466C21.1798 0.57837 21.1249 0.442094 21.0273 0.341617C20.9296 0.24114 20.7971 0.184692 20.659 0.184692H18.2287C18.0905 0.184692 17.9581 0.24114 17.8604 0.341617C17.7627 0.442094 17.7079 0.57837 17.7079 0.720466V3.96235L13.8223 0.673586C13.4494 0.357917 12.9815 0.185323 12.4986 0.185323C12.0157 0.185323 11.5478 0.357917 11.1749 0.673586L0.189248 9.98132C0.136512 10.0262 0.0928819 10.0813 0.0608497 10.1434C0.0288174 10.2056 0.00901116 10.2737 0.00256261 10.3438C-0.00388595 10.4139 0.00314959 10.4846 0.0232672 10.5518C0.0433848 10.6191 0.0761902 10.6816 0.119809 10.7359L1.22649 12.12C1.26999 12.1744 1.3235 12.2194 1.38395 12.2525C1.44439 12.2857 1.5106 12.3062 1.57876 12.3129C1.64693 12.3197 1.71573 12.3126 1.78121 12.2919C1.84669 12.2713 1.90758 12.2376 1.96038 12.1927L12.1688 3.54266C12.2628 3.46467 12.38 3.42214 12.5008 3.42214C12.6216 3.42214 12.7388 3.46467 12.8328 3.54266L23.0417 12.1927C23.0944 12.2376 23.1552 12.2714 23.2205 12.292C23.2859 12.3127 23.3547 12.32 23.4228 12.3133C23.4909 12.3067 23.5571 12.2863 23.6175 12.2534C23.678 12.2204 23.7315 12.1755 23.7751 12.1213L24.8818 10.7372C24.9254 10.6827 24.958 10.6198 24.9779 10.5522C24.9978 10.4847 25.0045 10.4137 24.9976 10.3435C24.9908 10.2732 24.9705 10.2051 24.938 10.1429C24.9054 10.0808 24.8612 10.0259 24.808 9.98132Z" fill="black"/>
+                      </svg>
+                </a>
+            </div>
+            <div>
+                <a href="./Friends.html">
+                    <img src="../assets/Icon/friend.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="./Book.html">
+                    <img src="../assets/Icon/book.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="./game.html">
+                    <img src="../assets/Icon/game.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="./Profile.html">
+                    <img src="../assets/images/user.jpg" alt="" width="30" class="profile">
+                </a>
+            </div>
+        </div>
+        <div class="ml-[1.25rem] mt-[.1rem] text-black text-[1.3rem] font-[700]">
+            Message
+        </div>
+        <div class="flex w-[90%] m-auto overflow-auto imageContainer pt-1">
+            
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="min-w-[3.75rem] flex flex-col justify-center items-center relative">
+                    <div class="">
+                        <img src="../assets/images/user.jpg" alt="" class="w-[3.75rem] h-[3.75rem] rounded-full border-[1px] border-black">
+                    </div>
+                    <p class="w-[4.9375rem] h-[2.3125rem] flex justify-center items-center text-[#354B45] texy-[0.875rem] font-[700]">Chharng</p>
+                    <div class="absolute w-[1.25rem] h-[1.25rem] bg-[#2EE862] rounded-full right-2 top-10">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <a href="./RoomChat.html">
+                <div class="section1 user1 w-[80%] m-auto h-[3.75rem] border-y-[1px] border-[#8E8E8E] flex items-center">
+                    <div class="flex w-full h-full">
+                      <div class="user-img flex items-center">
+                        <img src="../assets/images/user.jpg" alt="" class="rounded-full min-w-[3.125rem] h-[3.125rem] object-cover border-2 border-[black]">
+                      </div>
+                      <div class="ml-4 flex flex-col justify-evenly">
+                        <div class="name text-[0.875rem] normal font-[800]">Chharng Chhit</div>
+                        <div class="des w-[14.4375rem] text-[0.625rem] text-[#645959] font-[500] flex justify-between">
+                            <div class="">Lorem ipsum dolor sit amet.</div>
+                            <div class="">8:49</div>
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+            </a>
+            
+            
+            <a href="./RoomChat.html">
+                <div class="section1 user1 w-[80%] m-auto h-[3.75rem] border-b-[1px] border-[#8E8E8E] flex items-center">
+                    <div class="flex w-full h-full">
+                      <div class="user-img flex items-center">
+                        <img src="../assets/images/user.jpg" alt="" class="rounded-full min-w-[3.125rem] h-[3.125rem] object-cover border-2 border-[black]">
+                      </div>
+                      <div class="ml-4 flex flex-col justify-evenly">
+                        <div class="name text-[0.875rem] normal font-[800]">Chharng Chhit</div>
+                        <div class="des w-[14.4375rem] text-[0.625rem] text-[#645959] font-[500] flex justify-between">
+                            <div class="">Lorem ipsum dolor sit amet.</div>
+                            <div class="">8:49</div>
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+            </a>
+            
+            
+        </div>
+
+    </div>
+
+</body>
+<script>
+    var navbar = document.getElementById("nav-menu");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+    window.onscroll = function () { myFunction() };
+</script>
+
+</html>

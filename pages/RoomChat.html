@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="icon" href="../assets/images/community.png">
+    <script src="../assets/script/tailwind.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="wrapper w-[24.375rem] m-auto">
+        <div class="w-[24.375rem] h-[4.375rem] bg-[#BFD7ED] flex  justify-between items-center">
+            <div class="flex items-center w-2/3">
+                <div class="ml-4">
+                    <a href="./Message.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M11.4965 18.1877L10.5055 19.1787C10.0859 19.5983 9.40743 19.5983 8.9923 19.1787L0.314697 10.5055C-0.104899 10.0859 -0.104899 9.40743 0.314697 8.9923L8.9923 0.314697C9.4119 -0.104899 10.0904 -0.104899 10.5055 0.314697L11.4965 1.30566C11.9205 1.72972 11.9116 2.4216 11.4786 2.83674L6.09977 7.96117H18.9287C19.5224 7.96117 20 8.43879 20 9.03247V10.4609C20 11.0546 19.5224 11.5322 18.9287 11.5322H6.09977L11.4786 16.6566C11.9161 17.0718 11.925 17.7636 11.4965 18.1877Z" fill="black"/>
+                          </svg>
+                    </a>
+                </div>
+                <div class="ml-2">
+                    <img src="../assets/images/user.jpg" alt="" class="w-[2.625rem] h-[2.625rem] rounded-full border-[1px] border-[#FFF]">
+                </div>
+                <div class="ml-2 text-black text-[1.125rem] font-[700]">Chharng Chhit</div>
+            </div>
+            <div class="flex items-center w-1/3 justify-end">
+                <div class="mr-[1.4rem] cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <path d="M24.2866 17.6656L18.8179 15.3218C18.5843 15.2223 18.3246 15.2013 18.078 15.262C17.8315 15.3228 17.6113 15.462 17.4507 15.6587L15.0288 18.6177C11.2279 16.8256 8.16904 13.7668 6.37695 9.96587L9.33594 7.54399C9.53305 7.38368 9.67256 7.16351 9.73335 6.91682C9.79414 6.67013 9.7729 6.41035 9.67285 6.1768L7.3291 0.708053C7.21929 0.4563 7.02508 0.250751 6.77996 0.126852C6.53483 0.00295173 6.25416 -0.0315334 5.98633 0.0293424L0.908203 1.20122C0.649985 1.26085 0.419602 1.40624 0.254656 1.61366C0.0897096 1.82109 -5.94829e-05 2.07829 2.95713e-08 2.34331C2.95713e-08 14.8677 10.1514 24.9996 22.6562 24.9996C22.9213 24.9997 23.1787 24.91 23.3862 24.7451C23.5937 24.5801 23.7392 24.3497 23.7988 24.0914L24.9707 19.0132C25.0312 18.7441 24.996 18.4623 24.8711 18.2163C24.7463 17.9704 24.5396 17.7756 24.2866 17.6656Z" fill="#0074B7"/>
+                      </svg>
+                </div>
+                <div class="mr-[1.4rem] cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none">
+                        <path d="M14.592 0H2.07465C0.928819 0 0 0.92882 0 2.07465V14.592C0 15.7378 0.928819 16.6667 2.07465 16.6667H14.592C15.7378 16.6667 16.6667 15.7378 16.6667 14.592V2.07465C16.6667 0.92882 15.7378 0 14.592 0ZM22.8125 1.63628L18.0556 4.91753V11.7491L22.8125 15.026C23.7326 15.6597 25 15.013 25 13.9062V2.75608C25 1.65365 23.737 1.0026 22.8125 1.63628Z" fill="#0074B7"/>
+                      </svg>
+                </div>
+                <div class="mr-[1.4rem] cursor-pointer">
+                    <i class="fa-solid fa-ellipsis-vertical text-[24px]"></i>
+                </div>
+            </div>
+        </div>
+        <div class="w-[24.375rem] h-[44.625rem] relative bg-[#d1c6c6]">
+            <div class="w-full text-center text-white pt-1 text-[0.75rem] font-[400]">14 MAR</div>
+            <div class="flex items-end">
+                <div class="ml-4">
+                    <img src="../assets/images/user.jpg" alt="" class="w-[2.5rem] h-[2.5rem] rounded-full">
+                </div>
+                <div class="ml-3">
+                    <div class="max-w-[10.9375rem] bg-[#0074B7] p-2 rounded-[0.875rem] text-white mt-1">Hello, how are you?</div>
+                    <div class="max-w-[10.9375rem] bg-[#0074B7] p-2 rounded-[0.875rem] text-white mt-1">Where are you new?</div>
+                </div>
+            </div>
+            <div class="w-full flex justify-end">
+                <div class="mr-2 mt-2 flex items-end h-[8.75rem]">
+                    <div class="">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[15.375rem] h-[8.75rem] object-cover rounded-[1rem]">
+                    </div>
+                    <div class="relative ml-2 text-[#589458]">
+                        <i class="fa-solid fa-check absolute"></i>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-3 relative flex items-end justify-end mr-2">
+                <div class="max-w-[9.9375rem] bg-[#0074B7] p-2 rounded-[0.875rem] text-white mt-1">Hello, how are you?</div>
+                <div class="relative ml-2 text-[#589458]">
+                    <i class="fa-solid fa-check absolute"></i>
+                    <i class="fa-solid fa-check"></i>
+                </div>
+            </div>
+            <div class="w-full flex items-end mt-4">
+                <div class="ml-4">
+                    <img src="../assets/images/user.jpg" alt="" class="w-[2.5rem] h-[2.5rem] rounded-full">
+                </div>
+                <div class="ml-2 flex rounded-[1rem]">
+                    <div class="mt-1 ml-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                    </div>
+                    <div class="mt-1 ml-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                    </div>
+                    <div class="mt-1 ml-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                        <img src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="w-[5rem] h-[5rem] object-cover mb-1">
+                    </div>
+                </div>
+            </div>
+            <div class="ml-3 relative flex items-end justify-end mr-2">
+                <div class="max-w-[9.9375rem] bg-[#0074B7] p-2 rounded-[0.875rem] text-white mt-1">Hello, how are you?</div>
+                <div class="relative ml-2 text-[#589458]">
+                    <i class="fa-solid fa-check absolute"></i>
+                    <i class="fa-solid fa-check"></i>
+                </div>
+            </div>
+            <div class="w-[24.375rem] h-[3.75rem] bg-[#BFD7ED] absolute bottom-0 flex justify-evenly items-center">
+                <div class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M15 0C6.71371 0 0 6.71371 0 15C0 23.2863 6.71371 30 15 30C23.2863 30 30 23.2863 30 15C30 6.71371 23.2863 0 15 0ZM19.8387 10.1613C20.9093 10.1613 21.7742 11.0262 21.7742 12.0968C21.7742 13.1673 20.9093 14.0323 19.8387 14.0323C18.7681 14.0323 17.9032 13.1673 17.9032 12.0968C17.9032 11.0262 18.7681 10.1613 19.8387 10.1613ZM10.1613 10.1613C11.2319 10.1613 12.0968 11.0262 12.0968 12.0968C12.0968 13.1673 11.2319 14.0323 10.1613 14.0323C9.09073 14.0323 8.22581 13.1673 8.22581 12.0968C8.22581 11.0262 9.09073 10.1613 10.1613 10.1613ZM21.9435 20.4556C20.2198 22.5242 17.6915 23.7097 15 23.7097C12.3085 23.7097 9.78024 22.5242 8.05645 20.4556C7.23387 19.4698 8.72177 18.2359 9.54435 19.2157C10.8992 20.8427 12.8831 21.7681 15 21.7681C17.1169 21.7681 19.1008 20.8367 20.4556 19.2157C21.2661 18.2359 22.7601 19.4698 21.9435 20.4556Z" fill="black"/>
+                      </svg>
+                </div>
+                <div class="">
+                    <input type="text" placeholder="Message" class="w-[13.125rem] h-[2.5rem] pl-5 outline-none rounded-xl border-[1px] border-[gray]">
+                </div>
+                <div class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                        <g clip-path="url(#clip0_157_33)">
+                          <path d="M15.9479 9.05229C18.8652 11.9727 18.8252 16.6547 15.9655 19.5303C15.9601 19.5362 15.9537 19.5425 15.9479 19.5484L12.6666 22.8296C9.77258 25.7237 5.06414 25.7233 2.17053 22.8296C-0.723511 19.9361 -0.723511 15.2271 2.17053 12.3335L3.98235 10.5217C4.46282 10.0413 5.29026 10.3606 5.31506 11.0396C5.3467 11.9049 5.50188 12.7743 5.78821 13.6139C5.88518 13.8981 5.81589 14.2126 5.60349 14.425L4.96448 15.064C3.59602 16.4325 3.5531 18.6607 4.90808 20.0425C6.27644 21.438 8.52556 21.4463 9.90442 20.0674L13.1857 16.7867C14.5622 15.4101 14.5564 13.1852 13.1857 11.8145C13.005 11.6341 12.8229 11.494 12.6807 11.3961C12.5801 11.327 12.4971 11.2354 12.4382 11.1285C12.3793 11.0216 12.3462 10.9025 12.3415 10.7806C12.3222 10.2646 12.505 9.7329 12.9127 9.32519L13.9407 8.29711C14.2103 8.02753 14.6332 7.99443 14.9458 8.21259C15.3038 8.46257 15.6391 8.74355 15.9479 9.05229ZM22.8295 2.17036C19.9359 -0.723297 15.2274 -0.723688 12.3334 2.17036L9.05212 5.45161C9.04626 5.45746 9.03992 5.46381 9.03455 5.46967C6.17488 8.34526 6.13479 13.0273 9.05212 15.9477C9.36085 16.2564 9.69615 16.5374 10.0541 16.7873C10.3667 17.0055 10.7897 16.9724 11.0592 16.7028L12.0872 15.6747C12.4949 15.267 12.6778 14.7353 12.6584 14.2194C12.6537 14.0974 12.6206 13.9783 12.5618 13.8714C12.5029 13.7646 12.4198 13.6729 12.3192 13.6039C12.177 13.506 11.995 13.3658 11.8143 13.1854C10.4435 11.8147 10.4378 9.58979 11.8143 8.21327L15.0955 4.93251C16.4744 3.55366 18.7235 3.56196 20.0919 4.95742C21.4468 6.33925 21.404 8.56747 20.0355 9.93593L19.3965 10.5749C19.1841 10.7873 19.1148 11.1018 19.2117 11.3861C19.4981 12.2256 19.6532 13.095 19.6849 13.9603C19.7097 14.6393 20.5371 14.9587 21.0176 14.4782L22.8294 12.6664C25.7235 9.77289 25.7235 5.06391 22.8295 2.17036Z" fill="black"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_157_33">
+                            <rect width="25" height="25" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </div>
+                <div class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25" fill="none">
+                        <path d="M8.59375 17.1875C11.1826 17.1875 13.2812 15.0889 13.2812 12.5V4.6875C13.2812 2.09863 11.1826 0 8.59375 0C6.00488 0 3.90625 2.09863 3.90625 4.6875V12.5C3.90625 15.0889 6.00488 17.1875 8.59375 17.1875ZM16.4062 9.375H15.625C15.1934 9.375 14.8438 9.72461 14.8438 10.1562V12.5C14.8438 16.1523 11.6948 19.083 7.96924 18.7197C4.72217 18.4028 2.34375 15.4839 2.34375 12.2217V10.1562C2.34375 9.72461 1.99414 9.375 1.5625 9.375H0.78125C0.349609 9.375 0 9.72461 0 10.1562V12.1172C0 16.4941 3.12354 20.396 7.42188 20.9888V22.6562H4.6875C4.25586 22.6562 3.90625 23.0059 3.90625 23.4375V24.2188C3.90625 24.6504 4.25586 25 4.6875 25H12.5C12.9316 25 13.2812 24.6504 13.2812 24.2188V23.4375C13.2812 23.0059 12.9316 22.6562 12.5 22.6562H9.76562V21.0073C13.9507 20.4331 17.1875 16.8408 17.1875 12.5V10.1562C17.1875 9.72461 16.8379 9.375 16.4062 9.375Z" fill="black"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
